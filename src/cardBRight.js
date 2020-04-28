@@ -22,7 +22,7 @@ class WeatherFor extends Component{
             case 4: return 'TUE'
             case 5: return 'FRI'
             case 6: return 'SAT'
-            case 7: return 'SUN'
+            case 0: return 'SUN'
         }
     }
     render(){
